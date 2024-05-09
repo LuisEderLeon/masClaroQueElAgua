@@ -1,0 +1,31 @@
+[
+    {
+        "nombre": "Chandler Bing",
+        "direccion": "cll 100 #7",
+        "contacto": 12345678965,
+        "documento": 1020,
+        "status": "nuevo",
+        "servicios": [
+            "Fibra optica"
+        ]
+    },
+    {
+        "nombre": "Eder",
+        "direccion": "0648964",
+        "contacto": 2436,
+        "documento": 123,
+        "status": "nuevo",
+        "servicios": [
+            "Fibra optica",
+            "Fibra optica"
+        ]
+    },
+    {
+        "nombre": "Juan",
+        "direccion": "skchibfs",
+        "contacto": 2544465,
+        "documento": 213,
+        "status": "leal",
+        "servicios": []
+    }
+]

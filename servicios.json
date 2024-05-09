@@ -1,0 +1,17 @@
+[
+    {
+        "nombre": "Fibra optica",
+        "descripcion": "alta calidad y velocidad",
+        "precio": 100000
+    },
+    {
+        "nombre": "Prepago 50 gb",
+        "descripcion": "Internet prepago de hasta 50 Gb",
+        "precio": 40000
+    },
+    {
+        "nombre": "Pospago 50 gb",
+        "descripcion": "Internet pospago de hasta 50 Gb",
+        "precio": 40000
+    }
+]
