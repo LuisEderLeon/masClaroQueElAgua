@@ -1,7 +1,7 @@
 [
     {
         "nombre": "Fibra optica",
-        "descripcion": "alta calidad y velocidad",
+        "descripcion": "Internet 5G de alta calidad y velocidad",
         "precio": 100000
     },
     {
@@ -13,5 +13,10 @@
         "nombre": "Pospago 50 gb",
         "descripcion": "Internet pospago de hasta 50 Gb",
         "precio": 40000
+    },
+    {
+        "nombre": "Pospago 30 gb",
+        "descripcion": "Internet pospago de hasta 30 Gb",
+        "precio": 900000
     }
 ]

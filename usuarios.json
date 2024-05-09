@@ -27,5 +27,13 @@
         "documento": 213,
         "status": "leal",
         "servicios": []
+    },
+    {
+        "nombre": "Arley",
+        "direccion": "sapo",
+        "contacto": 3001897353,
+        "documento": 109653931,
+        "status": "nuevo",
+        "servicios": []
     }
 ]
