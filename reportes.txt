@@ -1,0 +1,8 @@
+09/05/2024 21:43:15 - Se intento ingresar un caracter a una variable de tipo numero
+09/05/2024 21:43:27 - Se intento ingresar un caracter a una variable de tipo numero
+09/05/2024 21:49:04 - Se intento ingresar un status no valido
+09/05/2024 21:51:26 - Se intento ingresar un caracter a una variable de tipo numero
+09/05/2024 22:26:57 - Se intento ingresar un servicio inexistente
+09/05/2024 22:31:12 - Se intento ingresar un caracter a una variable de tipo numero
+09/05/2024 22:31:15 - Se intento ingresar un caracter a una variable de tipo numero
+09/05/2024 22:35:45 - Se intento ingresar un servicio inexistente

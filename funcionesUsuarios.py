@@ -1,3 +1,5 @@
+from reportes import reportes
+
 def crearUsuario(usuarios):
     nombre = input("Ingrese el nombre del usuario nuevo: ")
     direccion = input("Ingrese la direccion del usuario: ")
@@ -6,11 +8,13 @@ def crearUsuario(usuarios):
     for usuario in usuarios:
         if usuario.get("documento") == documento:
             print("Error, este usuario ya existe; no pueden haber dos usuarios con el mismo documento")
+            reportes("Se intento crear un usuario con documento ya existente")
             return usuarios
     if input("¿Desea ingresar el status del usuario? Por defecto, se creara un usuario con status 'nuevo' (si, no): ").lower() == "si":
         status = input("Ingrese el status del usuario (nuevo, regular, leal): ").lower()
         if (status != "regular" and status != "leal") and status != "nuevo":
             print("Status no valido, se le asignara 'nuevo' como status al usuario")
+            reportes("Se intento ingresar un status no valido")
             status = "nuevo"
     else:
         status = "nuevo"
@@ -35,6 +39,7 @@ def listarUsuarios(usuarios):
                 print("Servicios: " + str(usuario["servicios"]))
                 return None
         print("Error, documento no encontrado")
+        reportes("Se intento ingresar un documento inexistente")
 
 def eliminarUsuarios(usuarios):
     documento = requiereNumero("Ingrese el documento del usuario a eliminar: ")
@@ -43,6 +48,7 @@ def eliminarUsuarios(usuarios):
             usuarios.remove(usuario)
             return usuarios
     print("Error, documento no encontrado")
+    reportes("Se intento ingresar un documento inexistente")
     return usuarios
 
 def modificarUsuarios(usuarios):
@@ -58,12 +64,14 @@ def modificarUsuarios(usuarios):
                     status = input("Ingrese el status del usuario (nuevo, regular, leal): ").lower()
                     if (status != "regular" and status != "leal") and status != "nuevo":
                         print("Status no valido, se le asignara 'nuevo' como status al usuario")
+                        reportes("Se intento ingresar un status no valido")
                         status = "nuevo"
                     usuarios[usuarios.index(usuario)][atributo] = status
                 else:
                     usuarios[usuarios.index(usuario)][atributo] = input("Ingrese el nuevo valor que desea ingresarle al atributo '" + atributo + "': ")
             except KeyError:
                 print("Error, atributo no valido")
+                reportes("Se intento ingresar una llave inexistente")
             return usuarios
     print("Error, documento no encontrado")
     return usuarios
@@ -78,8 +86,10 @@ def añadirServicio(usuarios,servicios):
                     usuarios[usuarios.index(usuario)]["servicios"].append(nServicio)
                     return usuarios
             print("Error, documento no encontrado")
+            reportes("Se intento ingresar un documento inexistente")
             return usuarios
     print("Error, servicio no encontrado")
+    reportes("Se intento ingresar un servicio inexistente")
     return usuarios
 
 def requiereNumero(mensaje):
@@ -89,6 +99,7 @@ def requiereNumero(mensaje):
         atributo = "0"
         while atributo == "0":
             try:
+                reportes("Se intento ingresar un caracter a una variable de tipo numero")
                 atributo = int(input("Error, solo se deben ingresar numeros, ingrese un numero valido: "))
             except ValueError:
                 atributo = "0"

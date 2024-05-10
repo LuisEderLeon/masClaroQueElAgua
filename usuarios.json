@@ -34,6 +34,24 @@
         "contacto": 3001897353,
         "documento": 109653931,
         "status": "nuevo",
+        "servicios": [
+            "Fibra optica"
+        ]
+    },
+    {
+        "nombre": "isa",
+        "direccion": "123",
+        "contacto": 1234,
+        "documento": 12345,
+        "status": "nuevo",
+        "servicios": []
+    },
+    {
+        "nombre": "Juliana Nusma",
+        "direccion": "patagonia con dracula mi patron",
+        "contacto": 3216546476383654354735435465654,
+        "documento": 1234587,
+        "status": "leal",
         "servicios": []
     }
 ]
