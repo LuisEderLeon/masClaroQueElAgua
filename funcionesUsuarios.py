@@ -25,7 +25,7 @@ def crearUsuario(usuarios):
 def listarUsuarios(usuarios):
     lista = []
     for usuario in usuarios:
-        lista.append(usuario.get("nombre"))
+        lista.append(usuario.get("nombre") + ": " + str(usuario.get("documento")))
     print("Los usuarios actuales son: " + str(lista))
     if input("¿Desea conocer informacion extra de algun usuario en especifico? (si, no): ").lower() == "si":
         documento = requiereNumero("Ingrese el documento del usuario que desea conocer informacion a detalle: ")

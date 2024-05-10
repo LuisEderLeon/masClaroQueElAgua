@@ -16,7 +16,6 @@
         "documento": 123,
         "status": "nuevo",
         "servicios": [
-            "Fibra optica",
             "Fibra optica"
         ]
     },
@@ -39,7 +38,7 @@
         ]
     },
     {
-        "nombre": "isa",
+        "nombre": "Isabella",
         "direccion": "123",
         "contacto": 1234,
         "documento": 12345,
@@ -52,6 +51,22 @@
         "contacto": 3216546476383654354735435465654,
         "documento": 1234587,
         "status": "leal",
+        "servicios": []
+    },
+    {
+        "nombre": "juan",
+        "direccion": "calle 1 #1-1",
+        "contacto": 3214073336,
+        "documento": 1098787923,
+        "status": "nuevo",
+        "servicios": []
+    },
+    {
+        "nombre": "Nicolas",
+        "direccion": "nose",
+        "contacto": 666,
+        "documento": 1097,
+        "status": "nuevo",
         "servicios": []
     }
 ]

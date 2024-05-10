@@ -6,3 +6,9 @@
 09/05/2024 22:31:12 - Se intento ingresar un caracter a una variable de tipo numero
 09/05/2024 22:31:15 - Se intento ingresar un caracter a una variable de tipo numero
 09/05/2024 22:35:45 - Se intento ingresar un servicio inexistente
+10/05/2024 14:18:32 - Se intento ingresar un caracter a una variable de tipo numero
+10/05/2024 15:29:59 - Se intento ingresar un documento inexistente
+10/05/2024 16:19:28 - Se intento ingresar un documento inexistente
+10/05/2024 16:27:44 - El usuario intento ingresar una opcion no valida en el menu de Usuarios
+10/05/2024 16:54:05 - El usuario intento ingresar una opcion no valida en el menu principal
+10/05/2024 17:19:56 - Se intento ingresar un producto inexistente
