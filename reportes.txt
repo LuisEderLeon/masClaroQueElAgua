@@ -12,3 +12,84 @@
 10/05/2024 16:27:44 - El usuario intento ingresar una opcion no valida en el menu de Usuarios
 10/05/2024 16:54:05 - El usuario intento ingresar una opcion no valida en el menu principal
 10/05/2024 17:19:56 - Se intento ingresar un producto inexistente
+10/05/2024 20:44:48 - Se intento ingresar un producto inexistente
+10/05/2024 21:13:46 - Se intento ingresar un documento inexistente
+10/05/2024 21:22:01 - Se intento ingresar un producto inexistente
+10/05/2024 21:24:30 - Se intento ingresar un caracter a una variable de tipo numero
+10/05/2024 21:25:29 - Se intento ingresar un documento inexistente
+10/05/2024 21:25:38 - El usuario intento ingresar una opcion no valida en el menu principal
+10/05/2024 21:50:35 - Se intento ingresar una opcion no valida
+10/05/2024 21:51:32 - Se intento ingresar una opcion no valida
+10/05/2024 21:53:27 - Se intento ingresar una opcion no valida
+10/05/2024 21:53:34 - Se intento ingresar una opcion no valida
+10/05/2024 21:58:19 - Se intento ingresar un producto inexistente
+10/05/2024 22:02:34 - El usuario intento ingresar una opcion no valida en el menu principal
+10/05/2024 22:02:48 - El usuario intento ingresar una opcion no valida en el menu de Usuarios
+10/05/2024 22:02:56 - Se intento ingresar un documento inexistente
+10/05/2024 22:03:05 - El usuario intento ingresar una opcion no valida en el menu principal
+10/05/2024 22:03:10 - El usuario intento ingresar una opcion no valida en el menu principal
+10/05/2024 22:03:18 - El usuario intento ingresar una opcion no valida en el menu principal
+10/05/2024 22:03:50 - Se intento ingresar un caracter a una variable de tipo numero
+10/05/2024 22:33:05 - El usuario intento ingresar una opcion no valida en el menu principal
+10/05/2024 22:33:19 - El usuario intento ingresar una opcion no valida en el menu principal
+10/05/2024 22:33:22 - El usuario intento ingresar una opcion no valida en el menu principal
+10/05/2024 22:33:33 - El usuario intento ingresar una opcion no valida en el menu principal
+10/05/2024 22:33:45 - El usuario intento ingresar una opcion no valida en el menu principal
+10/05/2024 22:33:51 - El usuario intento ingresar una opcion no valida en el menu principal
+10/05/2024 22:33:54 - El usuario intento ingresar una opcion no valida en el menu principal
+10/05/2024 22:34:08 - El usuario intento ingresar una opcion no valida en el menu principal
+10/05/2024 22:34:55 - Se intento ingresar un caracter a una variable de tipo numero
+10/05/2024 22:35:00 - Se intento ingresar un caracter a una variable de tipo numero
+10/05/2024 22:35:00 - Se intento ingresar un caracter a una variable de tipo numero
+10/05/2024 22:35:02 - Se intento ingresar un caracter a una variable de tipo numero
+10/05/2024 22:35:03 - Se intento ingresar un caracter a una variable de tipo numero
+10/05/2024 22:35:15 - Se intento crear un usuario con documento ya existente
+10/05/2024 22:35:52 - El usuario intento ingresar una opcion no valida en el menu de Usuarios
+10/05/2024 22:35:58 - Se intento ingresar un documento inexistente
+10/05/2024 22:36:01 - El usuario intento ingresar una opcion no valida en el menu principal
+10/05/2024 22:37:56 - Se intento ingresar un caracter a una variable de tipo numero
+10/05/2024 22:37:58 - Se intento ingresar un caracter a una variable de tipo numero
+10/05/2024 22:38:15 - El usuario intento ingresar una opcion no valida en el menu principal
+10/05/2024 22:38:18 - El usuario intento ingresar una opcion no valida en el menu principal
+10/05/2024 22:38:22 - El usuario intento ingresar una opcion no valida en el menu principal
+10/05/2024 22:38:37 - El usuario intento ingresar una opcion no valida en el menu principal
+10/05/2024 22:38:59 - El usuario intento ingresar una opcion no valida en el menu principal
+10/05/2024 22:39:17 - El usuario intento ingresar una opcion no valida en el menu principal
+10/05/2024 22:39:43 - Se intento ingresar un caracter a una variable de tipo numero
+10/05/2024 22:39:45 - Se intento ingresar un caracter a una variable de tipo numero
+10/05/2024 22:40:04 - Se intento ingresar un caracter a una variable de tipo numero
+10/05/2024 22:40:06 - Se intento ingresar un caracter a una variable de tipo numero
+10/05/2024 22:40:16 - Se intento ingresar un caracter a una variable de tipo numero
+10/05/2024 22:40:18 - Se intento ingresar un caracter a una variable de tipo numero
+10/05/2024 22:40:58 - Se intento ingresar un documento inexistente
+10/05/2024 22:43:31 - Se intento ingresar un documento inexistente
+10/05/2024 22:45:21 - Se intento ingresar un documento inexistente
+10/05/2024 22:45:34 - Se intento ingresar un documento inexistente
+10/05/2024 22:45:39 - El usuario intento ingresar una opcion no valida en el menu principal
+10/05/2024 22:45:57 - Se intento ingresar un documento inexistente
+10/05/2024 22:49:15 - Se intento ingresar una opcion no valida
+10/05/2024 22:49:49 - Se intento ingresar un caracter a una variable de tipo numero
+10/05/2024 22:49:50 - Se intento ingresar un caracter a una variable de tipo numero
+10/05/2024 22:50:11 - Se intento ingresar una opcion no valida
+10/05/2024 22:50:44 - Se intento ingresar un caracter a una variable de tipo numero
+10/05/2024 22:50:44 - Se intento ingresar un caracter a una variable de tipo numero
+10/05/2024 22:50:45 - Se intento ingresar un caracter a una variable de tipo numero
+10/05/2024 22:50:45 - Se intento ingresar un caracter a una variable de tipo numero
+10/05/2024 22:50:46 - Se intento ingresar un caracter a una variable de tipo numero
+10/05/2024 22:50:46 - Se intento ingresar un caracter a una variable de tipo numero
+10/05/2024 22:50:46 - Se intento ingresar un caracter a una variable de tipo numero
+10/05/2024 22:50:53 - Se intento ingresar una opcion no valida
+10/05/2024 22:51:43 - El usuario intento ingresar una opcion no valida en el menu principal
+10/05/2024 22:52:18 - El usuario intento ingresar una opcion no valida en el menu principal
+10/05/2024 22:52:58 - Se intento ingresar un caracter a una variable de tipo numero
+10/05/2024 22:52:59 - Se intento ingresar un caracter a una variable de tipo numero
+10/05/2024 22:53:00 - Se intento ingresar un caracter a una variable de tipo numero
+10/05/2024 22:53:09 - Se intento ingresar un caracter a una variable de tipo numero
+10/05/2024 22:53:10 - Se intento ingresar un caracter a una variable de tipo numero
+10/05/2024 22:53:12 - Se intento ingresar un caracter a una variable de tipo numero
+10/05/2024 22:53:13 - Se intento ingresar un caracter a una variable de tipo numero
+10/05/2024 22:53:15 - Se intento crear un usuario con documento ya existente
+10/05/2024 22:53:31 - Se intento ingresar un caracter a una variable de tipo numero
+10/05/2024 22:53:32 - Se intento ingresar un caracter a una variable de tipo numero
+10/05/2024 22:53:34 - Se intento ingresar un caracter a una variable de tipo numero
+10/05/2024 22:53:35 - Se intento crear un usuario con documento ya existente

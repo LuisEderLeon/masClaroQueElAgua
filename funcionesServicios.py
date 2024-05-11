@@ -17,7 +17,8 @@ def listarServicios(servicios):
     for servicio in servicios:
         lista.append(servicio.get("nombre"))
     print("Los servicios actuales son: " + str(lista))
-    if input("¿Desea conocer informacion extra de algun servicio en especifico? (si, no): ").lower() == "si":
+    opcion = input("¿Desea conocer informacion extra de algun servicio en especifico? (si, no): ").lower()
+    if opcion == "si":
         nombre = input("Ingrese el nombre del servicio que desea conocer informacion a detalle: ").capitalize()
         for servicio in servicios:
             if servicio.get("nombre") == nombre:
@@ -25,6 +26,9 @@ def listarServicios(servicios):
                 return None
         print("Error, nombre no encontrado")
         reportes("Se intento ingresar un servicio inexistente")
+    elif opcion != "no":
+        print("Opcion no valida, se interpretara como 'no'")
+        reportes("Se intento ingresar una opcion no valida")
 
 def eliminarServicios(servicios):
     nombre = input("Ingrese el nombre del servicio a eliminar: ").capitalize()

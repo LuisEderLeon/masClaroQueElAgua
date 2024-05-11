@@ -10,12 +10,17 @@ def crearUsuario(usuarios):
             print("Error, este usuario ya existe; no pueden haber dos usuarios con el mismo documento")
             reportes("Se intento crear un usuario con documento ya existente")
             return usuarios
-    if input("¿Desea ingresar el status del usuario? Por defecto, se creara un usuario con status 'nuevo' (si, no): ").lower() == "si":
+    opcion = input("¿Desea ingresar el status del usuario? Por defecto, se creara un usuario con status 'nuevo' (si, no): ").lower() 
+    if opcion == "si":
         status = input("Ingrese el status del usuario (nuevo, regular, leal): ").lower()
         if (status != "regular" and status != "leal") and status != "nuevo":
             print("Status no valido, se le asignara 'nuevo' como status al usuario")
             reportes("Se intento ingresar un status no valido")
             status = "nuevo"
+    elif opcion != "no":
+        print("Opcion no valida, se interpretara como 'no'")
+        reportes("Se intento ingresar una opcion no valida")
+        status = "nuevo"
     else:
         status = "nuevo"
     servicios = []
@@ -27,7 +32,8 @@ def listarUsuarios(usuarios):
     for usuario in usuarios:
         lista.append(usuario.get("nombre") + ": " + str(usuario.get("documento")))
     print("Los usuarios actuales son: " + str(lista))
-    if input("¿Desea conocer informacion extra de algun usuario en especifico? (si, no): ").lower() == "si":
+    opcion = input("¿Desea conocer informacion extra de algun usuario en especifico? (si, no): ").lower()
+    if opcion == "si":
         documento = requiereNumero("Ingrese el documento del usuario que desea conocer informacion a detalle: ")
         for usuario in usuarios:
             if usuario.get("documento") == documento:
@@ -40,6 +46,9 @@ def listarUsuarios(usuarios):
                 return None
         print("Error, documento no encontrado")
         reportes("Se intento ingresar un documento inexistente")
+    elif opcion != "no":
+        print("Opcion no valida, se interpretara como 'no'")
+        reportes("Se intento ingresar una opcion no valida")
 
 def eliminarUsuarios(usuarios):
     documento = requiereNumero("Ingrese el documento del usuario a eliminar: ")
