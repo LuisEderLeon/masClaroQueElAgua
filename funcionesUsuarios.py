@@ -76,6 +76,9 @@ def modificarUsuarios(usuarios):
                         reportes("Se intento ingresar un status no valido")
                         status = "nuevo"
                     usuarios[usuarios.index(usuario)][atributo] = status
+                elif atributo == "documento":
+                    print("Error, el documento de un usuario no es modificable, puesto que este es unico para cada usuario")
+                    reportes("Se intento modificar el documento de un usuario")
                 else:
                     usuarios[usuarios.index(usuario)][atributo] = input("Ingrese el nuevo valor que desea ingresarle al atributo '" + atributo + "': ")
             except KeyError:
