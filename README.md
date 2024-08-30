@@ -1,7 +1,7 @@
 # Mas CLARO que el agua
 
-      ⢀⣤⣶⡾⡿⠟⠿⠿⠿⠻⣷⣶⣤⣀      
-    ⣠⣾⢿⢏⡡⣄⣠⢠⣀⣄⣠⣀⣄⣉⠞⣿⢷⣤⡀   
+            ⢀⣤⣶⡾⡿⠟⠿⠿⠿⠻⣷⣶⣤⣀      
+          ⣠⣾⢿⢏⡡⣄⣠⢠⣀⣄⣠⣀⣄⣉⠞⣿⢷⣤⡀   
         ⣠⣾⢿⣽⣻⢾⣽⣞⣷⣻⣞⡾⣵⣯⢾⣭⡿⣞⣯⣿⣳⣄  
        ⣴⡿⣽⣻⡾⣯⣿⢾⣽⡾⣷⣻⢿⣽⡾⣿⣽⣻⣽⣟⣾⣽⣻⣧ 
       ⢰⡿⣽⣟⡷⣿⣽⢾⣻⣷⣻⣽⢯⣿⢾⣽⡷⣯⡇⢸⡾⡽⠊⣱⢿⡇
@@ -11,8 +11,8 @@
       ⠸⣟⣷⣯⢿⣽⣾⣻⢿⡽⣯⢿⣽⣻⣟⡷⣿⣽⣻⣽⢾⣻⣯⣟⣯⡇
        ⠻⣷⢯⣿⣞⡷⣟⣯⣿⣻⢯⡷⣟⡾⣟⣷⣯⣟⣾⢿⣽⣞⣯⡟ 
         ⠙⢿⣳⣯⢿⣻⣽⡾⣽⢯⣻⣝⣻⡽⣾⣳⡿⣽⣻⣾⡽⠋  
-    ⠛⢽⣟⣯⡷⣟⣯⢿⣱⢯⣷⣻⣽⢷⣟⣿⡳⠛⠁   
-      ⠉⠛⠹⠿⣽⣻⣯⣿⢾⣽⠾⠟⠛⠈                   
+          ⠛⢽⣟⣯⡷⣟⣯⢿⣱⢯⣷⣻⣽⢷⣟⣿⡳⠛⠁   
+            ⠉⠛⠹⠿⣽⣻⣯⣿⢾⣽⠾⠟⠛⠈                   
 
 Simple proyecto de Python, que desea ayudar con la gestion de usuarios y servicios por medio de diferentes funciones, faciles de usar para un usuario sin conocimientos tecnicos.
 
